@@ -1,0 +1,11 @@
+﻿; dll_lab_4.def: объявляет параметры модуля для библиотеки DLL.
+
+LIBRARY
+	MyDLLMFC.dll
+EXPORTS
+    ; Сюда можно направлять явные операции экспорта
+	SquareInt @1
+	SendMess @2
+	GetSum @3
+	GetMul @4
+	GetDiv @5
